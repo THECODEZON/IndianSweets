@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  assetPrefix: '',
+  basePath: '',
   webpack: (config, { dev }) => {
     return config;
   },
